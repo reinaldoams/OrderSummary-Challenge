@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-image: url(./images/pattern-background-desktop.svg);
     background-repeat: no-repeat;
@@ -46,11 +50,21 @@ button img {
     margin: 1rem;
 }
 
+.proceed:hover {
+    background-color: rgb(92, 92, 255);
+}
+
 .cancel {
     min-height: 3rem;
     max-height: 3rem;
     background: none;
     font-weight: bold;
+    color: rgb(79, 79, 201);
+}
+
+.cancel:hover {
+    color:rgb(46, 39, 121);
+    cursor: pointer;
 }
 
 .plan {
@@ -92,9 +106,16 @@ button img {
     text-align: center;
     margin-left: 0;
     margin-right: 3rem;
+    letter-spacing: 0.7px;
 }
 
 .change {
     text-align: center;
     margin: auto 0;
+    font-weight: 700;
+}
+
+.change:hover {
+    text-decoration: none;
+    color: rgb(79, 79, 201);
 }
