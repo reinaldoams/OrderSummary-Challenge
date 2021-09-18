@@ -1,13 +1,18 @@
 body {
-    background-image: url(/images/pattern-background-desktop.svg);
+    background-image: url(./images/pattern-background-desktop.svg);
     background-repeat: no-repeat;
     background-size:contain;
     background-position:top;
     background-color: rgba(135, 207, 235, 0.39);
+    color: rgb(46, 39, 121);
+    font-family:sans-serif;
+    letter-spacing: -0.05rem;
 }
 
 button img {
-    padding: 0.7rem 0;
+    padding: 2rem 1;
+    min-height: 4rem;
+    max-height: 4rem;
 }
 
 .container img {
@@ -34,7 +39,7 @@ button img {
 .proceed {
     background-color: blue;
     color: white;
-    font-weight:bold;
+    font-weight: bold;
     min-height: 3rem;
     max-height: 3rem;
     box-shadow: 0 5px 15px 1px rgba(0, 0, 255, 0.226);
@@ -44,7 +49,8 @@ button img {
 .cancel {
     min-height: 3rem;
     max-height: 3rem;
-    background-color: rgba(0, 0, 255, 0.048);
+    background: none;
+    font-weight: bold;
 }
 
 .plan {
@@ -74,13 +80,17 @@ button img {
 }
 
 .plan {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     min-height: 5rem;
     max-height: 5rem;
+    padding: 0 1rem;
 }
 
 .button1 {
     text-align: center;
-    margin-left: 1rem;
+    margin-left: 0;
     margin-right: 3rem;
 }
 
